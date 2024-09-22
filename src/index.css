@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-image: url(https://images.unsplash.com/photo-1601379329542-31c59347e2b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#icon{
+  display: flex;
+  justify-content: flex-end;
+  margin:2px 2px 5px 0px;
+}
+img{
+  
+  margin: 0px 3px 2px 4px;
+  height: 140px;
+  width: 137px;
+}
+
+#allbook{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 200px;
+  margin: 26px 100px 0px 100px;
+}
+#bookdiv{
+
+  height: 193px;
+  margin:0px 15px 25px 15px;
+  box-shadow: rgba(238, 60, 155, 0.913) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#bookdiv:hover{
+ transform: rotateY(10deg);
+}
+h1{
+  font-weight: 500;
+  font-family: cursive;
+  width: 139px;
+  overflow: hidden;
+  height: 20px;
+  margin: 3px 2px 4px 3px;
+}
+h2{
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Georgia, serif;
+  text-shadow: 2px 2px #dc75a0;
+  margin-top: 12px;
+}
+
+#editTit{
+  border: 0.5px solid black;
+  width: 135.5px ;
+  margin-bottom: -100px;
+}
+#editdiv{
+ margin-top: -111px;
+ width: 136px;
+ margin-left: 5px;
+
+}
+#savebtn{
+  border: 1px solid black;
+  width:40px ;
+  margin: 3px 0px 3px 0px;
+}
+
+@media(max-width:460px){
+  
+#icon{
+  margin:2px 2px 5px 0px;
+}
+img{
+  
+  margin: 0px 3px 2px 4px;
+  height: 100px;
+  width: 107px;
+}
+
+#allbook{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 26px 20px 0px 20px;
+}
+#bookdiv{
+  height: 152px;
+  margin:0px 15px 20px 15px;
+}
+h1{
+  width: 109px;
+}
+h2{
+  font-size: 20px;
+  margin-top: 14px;
+}
+
+#editTit{
+  width: 106px ;
+}
+#editdiv{
+ margin-top: -88px;
+ width: 106px;
+
+}
+
+}
